@@ -48,7 +48,7 @@ graph TD
     Node3 -->|False| Node6["6. Retorno: return result (linha 33)"]
     Node3 -->|Erro SQL| Node5
     Node4 -->|Sucesso| Node6
-    Node4 -->|Erro rs.getString()| Node5
+    Node4 -->|Erro rs.getString| Node5
     Node5 --> Node6
 ```
 
